@@ -1,12 +1,12 @@
 function hax() {
     // Custom icon
     var thumb = "https://atlas-content-cdn.pixelsquid.com/stock-images/file-folder-mdmADN9-600.jpg";
-    var appName = "File Explorer";
+    var appName = "HiZ Store";
 
     var thumbnail = thumb;
     var iconSmall = thumb;
     var iconBig = thumb;
-    var AppUrl = "https://rickroll.it/";
+    var AppUrl = "https://phasedgapple.github.io/HiZ-Store";
     var storetype = "store";
     var appId = appName;
 
