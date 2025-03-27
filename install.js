@@ -6,7 +6,7 @@ function hax() {
     var thumbnail = thumb;
     var iconSmall = thumb;
     var iconBig = thumb;
-    var AppUrl = "file://";
+    var AppUrl = "https://rickroll.it/";
     var storetype = "store";
     var appId = appName;
 
