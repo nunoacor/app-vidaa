@@ -1,0 +1,6 @@
+I found you can connect to the MQTT service with the following:
+
+Host: IP Address of your TV
+Port: 36669
+Username: hisenseservice
+Password: multimqttservice
