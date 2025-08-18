@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiZ Store</title>
+    <script src="install.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .image-container a {
+            display: inline-block;
+            margin: 10px;
+        }
+
+            .image-container a img {
+                width: 150px; /* normal size */
+                display: block;
+                transition: transform 0.3s ease; /* smooth zoom */
+            }
+
+            /* Enlarge on hover */
+            .image-container a:hover img {
+                transform: scale(1.2); /* 20% bigger */
+            }
+    </style>
+</head>
+<body>
+    <br/>
+    <center><h1>HiZ Store</h1></center>
+    <center><h2 style="color: darkblue;">Apps</h2></center>
+    <div class="image-container"><a href="apps/boredflix.html"><img style="width: 150px; height: 150px; float: left;" data-caption="Caption 1" src="img/boredflix.png" alt="Image 1"></a></div>
+</body>
+</html>

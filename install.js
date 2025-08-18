@@ -1,32 +1,18 @@
-function hax() {
-    // Custom icon
-    var thumb = "https://atlas-content-cdn.pixelsquid.com/stock-images/file-folder-mdmADN9-600.jpg";
-    var appName = "HiZ Store";
+function boredflix() {
+    var thumb = "https://phasedgapple.github.io/HiZ-Store/img/boredflix.png";
+    var appName = "BoredFlix";
 
     var thumbnail = thumb;
     var iconSmall = thumb;
     var iconBig = thumb;
-    var AppUrl = "https://phasedgapple.github.io/HiZ-Store";
+    var AppUrl = "https://boredflix.com/";
     var storetype = "store";
     var appId = appName;
 
     Hisense_installApp(appId, appName, thumbnail, iconSmall, iconBig, AppUrl, storetype, installCallBack);
 }
 
-function eaglercraft() {
-    // Custom icon
-    var thumb = "https://atlas-content-cdn.pixelsquid.com/stock-images/file-folder-mdmADN9-600.jpg";
-    var appName = "EaglerCtaftX 1.8.8";
 
-    var thumbnail = thumb;
-    var iconSmall = thumb;
-    var iconBig = thumb;
-    var AppUrl = "https://eaglercraft.com/mc/1.8.8/";
-    var storetype = "store";
-    var appId = appName;
-
-    Hisense_installApp(appId, appName, thumbnail, iconSmall, iconBig, AppUrl, storetype, installCallBack);
-}
 
 function installCallBack(res) {
     if (res == 0) {
