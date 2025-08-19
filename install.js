@@ -19,7 +19,7 @@ function stremio() {
     var thumbnail = thumb;
     var iconSmall = thumb;
     var iconBig = thumb;
-    var AppUrl = "https://web.stremio.com/";
+    var AppUrl = "https://wn7lso8ghdka.stremio.com/hisense/index.html";
     var storetype = "store";
     var appId = appName;
 
