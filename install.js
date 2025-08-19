@@ -12,6 +12,20 @@ function boredflix() {
     Hisense_installApp(appId, appName, thumbnail, iconSmall, iconBig, AppUrl, storetype, installCallBack);
 }
 
+function stremio() {
+    var thumb = "https://tecnobits.com/wp-content/uploads/2024/12/Stremio-logo.jpg";
+    var appName = "Stremio";
+
+    var thumbnail = thumb;
+    var iconSmall = thumb;
+    var iconBig = thumb;
+    var AppUrl = "https://web.stremio.com/";
+    var storetype = "store";
+    var appId = appName;
+
+    Hisense_installApp(appId, appName, thumbnail, iconSmall, iconBig, AppUrl, storetype, installCallBack);
+}
+
 
 
 function installCallBack(res) {
