@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hidden Window Symbols Explorer</title>
+  <style>
+    body { font-family: monospace; background: #111; color: #0f0; padding: 20px; }
+    textarea { width: 100%; height: 80vh; background: #000; color: #0f0; border: 1px solid #0f0; padding: 10px; }
+    button { margin-top: 10px; padding: 5px 15px; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h1>🔍 Hidden JavaScript API Finder</h1>
+  <button onclick="findAPIs()">Search APIs</button>
+  <textarea id="output" readonly></textarea>
+
+  <script>
+    function dumpObject(obj, depth = 1, maxDepth = 3, prefix = '') {
+      let out = '';
+      if (!obj || depth > maxDepth) return out;
+
+      try {
+        const props = Object.getOwnPropertyNames(obj);
+        out += props.map(p => `${prefix}${p} : ${typeof obj[p]}`).join("\n") + "\n";
+      } catch (e) {
+        out += prefix + "[inaccessible]\n";
+      }
+      return out;
+    }
+
+    function findAPIs() {
+      let results = "=== Hidden Symbol APIs on window ===\n\n";
+      const symbols = Object.getOwnPropertySymbols(window);
+
+      results += `Found ${symbols.length} symbol(s).\n\n`;
+      symbols.forEach((sym, i) => {
+        results += `Symbol ${i}: ${sym.toString()}\n`;
+        try {
+          let target = window[sym];
+          results += dumpObject(target, 1, 2, '  ');
+        } catch (e) {
+          results += "  [Error accessing symbol]\n";
+        }
+        results += "\n";
+      });
+
+      document.getElementById("output").value = results;
+    }
+  </script>
+</body>
+</html>
