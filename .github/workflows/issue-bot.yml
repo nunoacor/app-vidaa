@@ -4,6 +4,10 @@ on:
   issues:
     types: [opened, edited]
 
+permissions:
+  issues: write
+  contents: read
+
 jobs:
   deploy:
     if: contains(github.event.issue.body || '', '?startdns')
