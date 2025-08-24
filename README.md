@@ -10,6 +10,6 @@ A store for Vidaa hisense tvs
 
 
 ## TODO
-[ ] Add custom DNS to support modern VIDAA TVs
-[ ] Recreate site so it looks better for an App Store
-[ ] Make it so I only need to add 1 line to add an app.
+- [ ] Add custom DNS to support modern VIDAA TVs
+- [ ] Recreate site so it looks better for an App Store
+- [ ] Make it so I only need to add 1 line to add an app.
