@@ -40,6 +40,19 @@ function spotify() {
     Hisense_installApp(appId, appName, thumbnail, iconSmall, iconBig, AppUrl, storetype, installCallBack);
 }
 
+function jellyfin() {
+    var thumb = "https://jellyfin.org/images/social.png";
+    var appName = "Jellyfin";
+
+    var thumbnail = thumb;
+    var iconSmall = thumb;
+    var iconBig = thumb;
+    var AppUrl = "https://5dd4c6a4.jellyfin-web.pages.dev/";
+    var storetype = "store";
+    var appId = appName;
+
+    Hisense_installApp(appId, appName, thumbnail, iconSmall, iconBig, AppUrl, storetype, installCallBack);
+}
 
 
 function installCallBack(res) {
