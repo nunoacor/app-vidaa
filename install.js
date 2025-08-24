@@ -26,6 +26,20 @@ function stremio() {
     Hisense_installApp(appId, appName, thumbnail, iconSmall, iconBig, AppUrl, storetype, installCallBack);
 }
 
+function spotify() {
+    var thumb = "https://facts.net/wp-content/uploads/2020/06/spotify-1360002_1920-730x438.jpg";
+    var appName = "Spotify";
+
+    var thumbnail = thumb;
+    var iconSmall = thumb;
+    var iconBig = thumb;
+    var AppUrl = "https://open.spotify.com/";
+    var storetype = "store";
+    var appId = appName;
+
+    Hisense_installApp(appId, appName, thumbnail, iconSmall, iconBig, AppUrl, storetype, installCallBack);
+}
+
 
 
 function installCallBack(res) {
