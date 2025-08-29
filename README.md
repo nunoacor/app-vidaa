@@ -9,7 +9,6 @@ A store for Vidaa hisense tvs
 I am currently focussing on those:
 - Adding as many apps as possible requested by users
 - Making it work on Modern TVs using a DNS method
-- Making it so you only need to add 1 line to add an entire app
 - Adding custom app repo support
 
 ## This project is inspired by this blog:
@@ -19,4 +18,4 @@ I am currently focussing on those:
 ## TODO
 - [ ] Add custom DNS to support modern VIDAA TVs
 - [ ] Recreate site so it looks better for an App Store
-- [ ] Make it so I only need to add 1 line to add an app.
+- [x] Make it so I only need to add 1 line to add an app.
