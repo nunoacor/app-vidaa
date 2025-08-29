@@ -1,59 +1,17 @@
-function boredflix() {
-    var thumb = "https://phasedgapple.github.io/HiZ-Store/img/boredflix.png";
-    var appName = "BoredFlix";
+function install() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const appName   = urlParams.get("appName");
+    const AppUrl    = urlParams.get("appUrl");
+    const thumb     = urlParams.get("thumbUrl");
 
     var thumbnail = thumb;
     var iconSmall = thumb;
     var iconBig = thumb;
-    var AppUrl = "https://boredflix.com/";
     var storetype = "store";
     var appId = appName;
 
     Hisense_installApp(appId, appName, thumbnail, iconSmall, iconBig, AppUrl, storetype, installCallBack);
 }
-
-function stremio() {
-    var thumb = "https://tecnobits.com/wp-content/uploads/2024/12/Stremio-logo.jpg";
-    var appName = "Stremio";
-
-    var thumbnail = thumb;
-    var iconSmall = thumb;
-    var iconBig = thumb;
-    var AppUrl = "https://wn7lso8ghdka.stremio.com/hisense/index.html";
-    var storetype = "store";
-    var appId = appName;
-
-    Hisense_installApp(appId, appName, thumbnail, iconSmall, iconBig, AppUrl, storetype, installCallBack);
-}
-
-function spotify() {
-    var thumb = "https://facts.net/wp-content/uploads/2020/06/spotify-1360002_1920-730x438.jpg";
-    var appName = "Spotify";
-
-    var thumbnail = thumb;
-    var iconSmall = thumb;
-    var iconBig = thumb;
-    var AppUrl = "https://open.spotify.com/";
-    var storetype = "store";
-    var appId = appName;
-
-    Hisense_installApp(appId, appName, thumbnail, iconSmall, iconBig, AppUrl, storetype, installCallBack);
-}
-
-function jellyfin() {
-    var thumb = "https://jellyfin.org/images/social.png";
-    var appName = "Jellyfin";
-
-    var thumbnail = thumb;
-    var iconSmall = thumb;
-    var iconBig = thumb;
-    var AppUrl = "https://5dd4c6a4.jellyfin-web.pages.dev/";
-    var storetype = "store";
-    var appId = appName;
-
-    Hisense_installApp(appId, appName, thumbnail, iconSmall, iconBig, AppUrl, storetype, installCallBack);
-}
-
 
 function installCallBack(res) {
     if (res == 0) {
@@ -96,3 +54,15 @@ function showPopup(title, message) {
     // Append popup to the document body
     document.body.appendChild(popup);
 }
+
+const urlParams = new URLSearchParams(window.location.search);
+const appName = urlParams.get("appName");
+const icon = urlParams.get("appIcon");
+const descriptionText = urlParams.get("description")
+
+const logo = document.getElementById("logo");
+const name = document.getElementById("name");
+const description = document.getElementById("description");
+logo.src = icon;
+name.innerText = appName;
+description.innerText = descriptionText;

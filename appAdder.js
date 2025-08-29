@@ -1,0 +1,9 @@
+function addApp(appName, imgUrl, thumbUrl, appUrl, description) {
+	const container = document.getElementById("AllApps");
+	container.innerHTML = container.innerHTML + `<a href="app.html?appName=${encodeURIComponent(appName)}&thumbUrl=${encodeURIComponent(thumbUrl)}&appUrl=${encodeURIComponent(appUrl)}&appIcon=${encodeURIComponent(imgUrl)}&description=${encodeURIComponent(description)}"><img style="width: 150px; height: 150px; float: left;" data-caption="Caption 1" src="${imgUrl}" alt="${appName}"></a>`
+}
+
+addApp("BoredFlix", "img/boredflix.png", "https://phasedgapple.github.io/HiZ-Store/img/boredflix.png", "https://boredflix.com/", "BoredFlix is a web app Movies, Series and Anime without an account and completely for free.")
+addApp("Stremio", "img/stremio.png", "https://tecnobits.com/wp-content/uploads/2024/12/Stremio-logo.jpg", "https://wn7lso8ghdka.stremio.com/hisense/index.html", "Stremio offers a secure, modern and seamless entertainment experience. With its easy-to-use interface and diverse content library, including 4K HDR support, users can enjoy their favorite movies and TV shows across all their devices. And with its commitment to security, Stremio is the ultimate choice for a worry-free, high-quality streaming experience. Streaming server required.")
+addApp("Spotify", "img/spotify.png", "https://facts.net/wp-content/uploads/2020/06/spotify-1360002_1920-730x438.jpg", "https://open.spotify.com/", "Play millions of songs and podcasts right on your TV. Browse your favorite playlists, discover new music, or enjoy curated recommendations—all on the big screen.")
+addApp("Jellyfin", "img/jellyfin.png", "https://jellyfin.org/images/social.png", "https://5dd4c6a4.jellyfin-web.pages.dev/", "Jellyfin is the volunteer-built media solution that puts YOU in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way.")
