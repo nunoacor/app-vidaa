@@ -5,6 +5,13 @@ A store for Vidaa hisense tvs
 	https://phasedgapple.github.io/HiZ-Store/
 ###### Make sure to visit this website on your Hisense TV browser else it wont work.
 
+## Current Focus
+I am currently focussing on those:
+- Adding as many apps as possible requested by users
+- Making it work on Modern TVs using a DNS method
+- Making it so you only need to add 1 line to add an entire app
+- Adding custom app repo support
+
 ## This project is inspired by this blog:
   https://bananamafia.dev/post/hisensehax/
 
