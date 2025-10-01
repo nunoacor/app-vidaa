@@ -1,9 +1,9 @@
 # HiZ-Store
-A store for Vidaa hisense tvs
+A store for VIDAA OS TVs (currently doesnt support modern tvs, still coding a new api for that)
 ### Status: WIP
 ###### Website:
 	https://phasedgapple.github.io/HiZ-Store/
-###### Make sure to visit this website on your Hisense TV browser else it wont work.
+###### Make sure to visit this website on your VIDAA TV browser else it wont work.
 
 ## Current Focus
 I am currently focussing on those:
@@ -17,6 +17,8 @@ I am currently focussing on those:
 ## TODO
 - [ ] Add custom DNS to support modern VIDAA TVs
 - [ ] Recreate site so it looks better for an App Store
+- [ ] Make it so you install the App Store to use it.
+- [ ] Add TV remote navigation support instead of the cursor of the browser (will require the TODO above)
 - [x] Make it so I only need to add 1 line to add an app.
 
 ## Custom Repos

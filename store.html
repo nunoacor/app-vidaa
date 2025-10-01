@@ -13,22 +13,29 @@
         }
 
             .image-container a img {
-                width: 150px; /* normal size */
+                width: 150px;
                 display: block;
                 transition: transform 0.3s ease; /* smooth zoom */
             }
 
             /* Enlarge on hover */
             .image-container a:hover img {
-                transform: scale(1.2); /* 20% bigger */
+                transform: scale(1.2); /* Increase size on hover */
             }
     </style>
 </head>
 <body>
-    <br/>
-    <center><h1>HiZ Store</h1></center>
-    <center><h2 style="color: darkblue;">Apps</h2></center>
-    <div class="image-container" id="AllApps">
+    <center><header class="header">
+    <div class="header-content">
+        <h1 class="store-title">HiZ Store</h1>
+        <p class="store-subtitle">Discover amazing apps for your VIDAA TV.</p>
     </div>
+    <div class="header-decoration"></div>
+</header></center>
+    <center><h2 style="color: darkblue;">Apps</h2></center>
+    <center>
+        <div class="image-container" id="AllApps">
+        </div>
+    </center>
 </body>
 </html>
