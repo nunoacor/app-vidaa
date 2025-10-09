@@ -40,7 +40,7 @@ You can add a github issue to add an custom repo made for the HiZ-Store. When it
         "thumb": "ICON-THUMBNAIL",
         "url": "WEB-APP URL",
         "description": "APP DESCRIPTION - Would be nice to end with a dot."
-    },
+    }
 }
 ```
 The Repo ID is useless its just for organizing and you can add as many apps as you want.
