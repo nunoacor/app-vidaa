@@ -19,5 +19,26 @@
     "thumb": "https://jellyfin.org/images/social.png",
     "url": "https://5dd4c6a4.jellyfin-web.pages.dev/",
     "description": "Jellyfin is the volunteer-built media solution that puts YOU in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way."
+  },
+  "GeForce-NOW": {
+    "name": "NVIDIA Geforce NOW",
+    "img": "https://styles.redditmedia.com/t5_3a2md/styles/communityIcon_8j3n992au2ha1.jpg",
+    "thumb": "https://game-experience.it/wp-content/uploads/2021/01/NVIDIA-GeForce-Now.jpg",
+    "url": "https://play.geforcenow.com",
+    "description": "Instantly play the most demanding PC games and seamlessly play across your devices."
+  },
+  "CBC-Gem": {
+    "name": "CBC Gem",
+    "img": "https://play-lh.googleusercontent.com/XZZyZjupHc45t3jMRcJeMrruEcmySUoBDhayIkQ6ZynI_YlFuoPUVWY0Ws1DWuoklg",
+    "thumb": "https://images.squarespace-cdn.com/content/v1/59cb171751a584e96594dc27/1589322399718-WWYGS7W9KKUBHMYPEZTZ/CBC+GEM.png",
+    "url": "https://gem.cbc.ca/",
+    "description": "Start streaming for free with CBC Gem, Canada's Home for Streaming."
+  },
+  "Dropout-TV": {
+    "name": "Dropout TV",
+    "img": "https://play-lh.googleusercontent.com/OWxR9M5anSy91z4e90-qdoc2cWywLfOF99F3Erg3bOfFsEDDgHKrnt3Wjd4pOAlaJfzW",
+    "thumb": "https://norerolls.co.uk/wp-content/uploads/2022/08/dropout-top.jpg?w=768&h=433",
+    "url": "https://watch.dropout.tv/browse",
+    "description": "Dropout.tv is a subscription-based streaming service focused on comedy content. It is operated by CollegeHumor and provides access to a range of original series, sketch shows, game shows, and animated content. The platform is known for hosting exclusive content from its creators and offers an ad-free viewing experience."
   }
 }
