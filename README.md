@@ -2,7 +2,7 @@
 A store for VIDAA OS TVs (currently doesnt support modern tvs, still coding a new api for that)
 ### Status: WIP
 ###### Website:
-	https://nunoacor.github.io/KPT-Store/
+	https://nunoacor.github.io/app-vidaa/
 ###### Make sure to visit this website on your VIDAA TV browser else it wont work.
 
 ## Current Focus
