@@ -1,8 +1,8 @@
-# HiZ-Store
+# KPT-Store
 A store for VIDAA OS TVs (currently doesnt support modern tvs, still coding a new api for that)
 ### Status: WIP
 ###### Website:
-	https://phasedgapple.github.io/HiZ-Store/
+	https://nunoacor.github.io/KPT-Store/
 ###### Make sure to visit this website on your VIDAA TV browser else it wont work.
 
 ## Current Focus
@@ -12,7 +12,7 @@ I am currently focussing on those:
 
 ## This project is inspired by this blog:
   https://bananamafia.dev/post/hisensehax/
-
+  https://github.com/PhasedGapple/HiZ-Store
 
 ## TODO
 - [ ] Add custom DNS to support modern VIDAA TVs
@@ -24,7 +24,7 @@ I am currently focussing on those:
 ## Custom Repos
 You can add a github issue to add an custom repo made for the HiZ-Store. When it gets added the repo is automatically applied and is being pulled straight from the url everytime somone connects to the HiZ Store. Quality of stuff like descriptions will be need to be kept and it would be nice to update it once a while. Also, obviously no NSFW apps in the repo.
 
-### HiZ-Store Repo example
+### KPT-Store Repo example
 ```json
 {
     "REPO-ID1": {
